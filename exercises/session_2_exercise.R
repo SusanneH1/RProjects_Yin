@@ -1,5 +1,7 @@
 #Exercise 2
 
+#making a change for the testBranch
+
 library(ggplot2) # only load (run) once
 
 #-----------------------------------------------------Exercise 2.2.1-----------------------------------------------------------
