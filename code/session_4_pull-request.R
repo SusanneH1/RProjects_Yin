@@ -1,4 +1,5 @@
 library(ggplot2)
+# library changed
 
 # draw 10,000 values from a beta distribution with shape parameters a = 4 and b = 4.
 n <- 1e4
