@@ -22,8 +22,8 @@ ggplot(UNI, aes(x = range, y = d)) +
 ## normal distribution 
 
 # create density distributions
-x_min <- -5
-x_max <- 5
+x_min <- -50
+x_max <- 50
 range <- seq(x_min, x_max, length.out = 100) # range
 d <- dnorm(range, mean = 0, sd = 1) # densities
 NORM <- data.frame(range, d)
@@ -39,7 +39,7 @@ ggplot(NORM, aes(x = range, y = d)) +
 ## beta distribution
 
 # create density distributions
-range <- seq(0, 1, length.out = 100)
+range <- seq(0, 1, length.out = 100) #the number of integers between min-max that should be created
 d <- dbeta(range, shape1 = 3, shape2 = 2)
 BETA <- data.frame(range, d)
 
