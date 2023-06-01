@@ -18,7 +18,7 @@ likelihood_C <- dbinom(6, 10, 0.8) * dbinom(4, 10, 0.2)
 likelihood_C
 
 # you think it is twice as likely that the reviews belong to Company B compared to Company A and also compared to Company C
-# -> meaning P(B)=2(PA)=P(C) -> P(A)=1/1+2+2=0.2
+# -> meaning P(B)=2(PA)=2P(C) -> P(A)=1/1+2+2=0.2
 prior_A <- 0.2
 prior_B <- 0.4
 prior_C <- 0.4
